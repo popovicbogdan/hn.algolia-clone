@@ -11,3 +11,142 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#app div.container {
+  width: 100%;
+}
+header {
+  background-color: #ff742b;
+}
+header .container .row {
+  margin-bottom: 0;
+}
+#a_foot {
+  display: inline-flex;
+  justify-content: center;
+}
+#logo {
+  width: 55px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.HeaderName {
+  color: black;
+  line-height: 1em;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.HeaderSearch {
+  margin-top: 8px;
+}
+.HeaderSearch input {
+  background-color: white;
+}
+#setting,
+#back {
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+#back a,
+#setting .container a {
+  padding-top: 7px;
+  display: grid;
+  grid-auto-flow: column;
+  color: black;
+}
+#setting div.container,
+#back {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#setting div.container svg,
+#back svg {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+#footer ul {
+  display: flex;
+  justify-content: center;
+}
+#footer ul li a {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+
+.SearchOptions {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #f6f6ef;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.About .container {
+  background-color: #f6f6ef;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.About .container #about {
+  height: 54px;
+  padding-top: 16px;
+  padding-left: 40px;
+  justify-self: left;
+
+  margin: 0;
+}
+.AboutInfo {
+  padding: 25px;
+}
+.SearchOptions div.container {
+  height: 54px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 125px;
+  gap: 20px;
+
+  text-align: center;
+}
+
+.SearchOptions div.container .input-field.col {
+  margin: 0;
+}
+.SearchOptions div.container #hide,
+#results {
+  height: 50px;
+  padding-top: 15px;
+  color: black;
+}
+
+@media only screen and (max-width: 850px) {
+  #hide,
+  #results {
+    display: none;
+  }
+
+  .SearchOptions {
+    padding-left: 20px;
+  }
+  .HeaderName {
+    display: none;
+  }
+}
+.Story {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  background-color: #f6f6ef;
+}
+#info,
+.Story a p {
+  margin: 0;
+}
+#info li {
+  color: gray;
+  font-size: 0.7rem;
+  display: inline-flex;
+  padding: 0 3px 0 3px;
+}
+#info li a {
+  color: gray;
+}

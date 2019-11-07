@@ -1,0 +1,3 @@
+export const GET_ARTICLES = "GET_ARTICLES";
+export const SET_SEARCH_PARAMS = "SET_SEARCH_PARAMS";
+export const SET_SEARCH = "SET_SEARCH";
